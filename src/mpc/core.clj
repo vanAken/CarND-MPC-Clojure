@@ -27,11 +27,11 @@
 
 ; Udacity requires 100 ms delay when submitting.
 ; Feel free to experiment with other values until then.
-(def actuation-period-milliseconds 40)
+(def actuation-period-milliseconds 50)
 
 (def speed 100)
 (def Lf 2.67)
-(def depth 5)
+(def depth 4)
 
 (defn policy
   "Given current state, determine next actuation.
