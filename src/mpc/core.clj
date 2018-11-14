@@ -43,7 +43,7 @@
         steering 0.0 ; TODO: Use pd-steering-estimate for better guess.
         throttle 1.0]
     [(uniform-distribution (- steering 0.4) (+ steering 0.4))
-     (uniform-distribution (- throttle 0.0) (+ throttle 0.0))]))
+     (uniform-distribution (- throttle 0.4) (+ throttle 0.0))]))
 
 (defn predict
   "Given current state and actuation, determine how
